@@ -41,17 +41,17 @@ namespace RhinoGame
 
             cachedRoomList = new Dictionary<string, RoomInfo>();
             roomListEntries = new Dictionary<string, GameObject>();
-            PlayerNameInput.text = "Player " + Random.Range(1000, 10000);
+            //PlayerNameInput.text = "Player " + Random.Range(1000, 10000);
 
-            #region Not used
-            //if (GameManager.Instance.playerData == null)
-            //{
-            //    PlayerNameInput.text = "Player " + Random.Range(1000, 10000);
-            //}
-            //else
-            //{
-            //    PlayerNameInput.text = GameManager.Instance.playerData.username;
-            //}
+            #region USED WITH JSON
+            if (GameManager.Instance.playerData == null)
+            {
+                PlayerNameInput.text = "Player " + Random.Range(1000, 10000);
+            }
+            else
+            {
+                PlayerNameInput.text = GameManager.Instance.playerData.username;
+            }
             #endregion
         }
 

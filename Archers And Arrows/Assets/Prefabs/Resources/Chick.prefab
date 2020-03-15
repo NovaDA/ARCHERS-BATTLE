@@ -10847,6 +10847,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: AimBarCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 7611699119984864417, guid: 0b65a98a47f53b24e8e706632adedf84,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7611699119984864417, guid: 0b65a98a47f53b24e8e706632adedf84,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6509683134557294162, guid: 0b65a98a47f53b24e8e706632adedf84,
         type: 3}
       propertyPath: m_MinValue
@@ -10861,16 +10871,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Value
       value: 10.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 7611699119984864417, guid: 0b65a98a47f53b24e8e706632adedf84,
-        type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7611699119984864417, guid: 0b65a98a47f53b24e8e706632adedf84,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8638539223898817533, guid: 0b65a98a47f53b24e8e706632adedf84,
         type: 3}
@@ -10977,15 +10977,15 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 8638539223898817522, guid: 0b65a98a47f53b24e8e706632adedf84,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 8638539223898817521, guid: 0b65a98a47f53b24e8e706632adedf84,
         type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8638539223898817522, guid: 0b65a98a47f53b24e8e706632adedf84,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0b65a98a47f53b24e8e706632adedf84, type: 3}
@@ -11162,6 +11162,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: HealthBarCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 7652885988734296069, guid: 003ba0168e97d3f4f8f2847621d6f159,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7652885988734296069, guid: 003ba0168e97d3f4f8f2847621d6f159,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7652885989696997033, guid: 003ba0168e97d3f4f8f2847621d6f159,
         type: 3}
       propertyPath: m_MaxValue
@@ -11176,16 +11186,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Value
       value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 7652885988734296069, guid: 003ba0168e97d3f4f8f2847621d6f159,
-        type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7652885988734296069, guid: 003ba0168e97d3f4f8f2847621d6f159,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7652885990018880892, guid: 003ba0168e97d3f4f8f2847621d6f159,
         type: 3}
@@ -11344,16 +11344,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4965609604515348494, guid: bb9f34b68d2904c49ab19ce059909b13,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4965609604515348494, guid: bb9f34b68d2904c49ab19ce059909b13,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: c6bd4874b7a2c9744895a908ed1c18d3, type: 2}
     - target: {fileID: 7678334397680125633, guid: bb9f34b68d2904c49ab19ce059909b13,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11409,6 +11399,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -4.7779846
       objectReference: {fileID: 0}
+    - target: {fileID: 4965609604515348494, guid: bb9f34b68d2904c49ab19ce059909b13,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4965609604515348494, guid: bb9f34b68d2904c49ab19ce059909b13,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c6bd4874b7a2c9744895a908ed1c18d3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb9f34b68d2904c49ab19ce059909b13, type: 3}
 --- !u!1 &510252748842771142 stripped
@@ -11433,16 +11433,6 @@ PrefabInstance:
     - target: {fileID: 1168380805761460, guid: 4404311ac95cf304bb31623603d48f90, type: 3}
       propertyPath: m_Name
       value: cartoon boom text
-      objectReference: {fileID: 0}
-    - target: {fileID: 198206077497547878, guid: 4404311ac95cf304bb31623603d48f90,
-        type: 3}
-      propertyPath: looping
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 198206077497547878, guid: 4404311ac95cf304bb31623603d48f90,
-        type: 3}
-      propertyPath: playOnAwake
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4107584859924886, guid: 4404311ac95cf304bb31623603d48f90, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11486,6 +11476,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4107584859924886, guid: 4404311ac95cf304bb31623603d48f90, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 198206077497547878, guid: 4404311ac95cf304bb31623603d48f90,
+        type: 3}
+      propertyPath: looping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 198206077497547878, guid: 4404311ac95cf304bb31623603d48f90,
+        type: 3}
+      propertyPath: playOnAwake
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4397885999391442, guid: 4404311ac95cf304bb31623603d48f90, type: 3}

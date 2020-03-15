@@ -19,6 +19,12 @@ public class GameManager : MonoBehaviour
     public static AudioClip gameMusic;
     public static AudioClip wonSound;
 
+    public GameObject PersonalBestPopUp;
+    [SerializeField]
+    private string fileName;
+    [HideInInspector]
+    public PlayerData playerData;
+
     //public string SceneName;
 
     private void Awake()
@@ -29,6 +35,11 @@ public class GameManager : MonoBehaviour
        menuMusic = menuM;
        gameMusic = gameM;
        wonSound = winS;
+    }
+
+    private void Start()
+    {
+        LoadPersonalBest();
     }
     #region Scene Management
     public void LoadScene(string SceneName)
@@ -147,12 +158,6 @@ public class GameManager : MonoBehaviour
         PersonalBestPopUp.SetActive(true);
     }
 
-
-    public GameObject PersonalBestPopUp;
-    [SerializeField]
-    private string fileName;
-    [HideInInspector]
-    public PlayerData playerData;
 
     #endregion
     
